@@ -1,0 +1,179 @@
+.main {
+  background-color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+}
+
+.scoreDiv {
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  padding: 25px;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.head {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 23px;
+}
+
+.score {
+  color: #223a5f;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.scoreCard {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left:8px;
+}
+
+.rps {
+  width: 175px;
+  height: 175px;
+}
+
+.gameList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gameItems {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.rules {
+  background-color: #ffffff;
+  color: #223a5f;
+  border-radius: 10px;
+  width: 120px;
+  height: 35px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.gamerule {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamerules {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 5px;
+  width: 45%;
+}
+
+.rulesImg {
+  width: 100%;
+}
+
+.upp {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.upara {
+  margin: 0px;
+  font-size: 15px;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.results {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resultCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resultWho {
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #ffffff;
+}
+
+.resultMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .scoreDiv {
+    width: 100%;
+  }
+  .gamerules {
+    width: 90%;
+    height: 70%;
+  }
+  .image {
+    flex-grow: 1;
+  }
+  .rulesImg {
+    height: 100%;
+  }
+}
+
+@media (max-width: 395px) {
+  .rps {
+    width: 135px;
+    height: 135px;
+  }
+}
+
+@media (max-width: 300px) {
+  .rps {
+    width: 85px;
+    height: 85px;
+  }
+}
